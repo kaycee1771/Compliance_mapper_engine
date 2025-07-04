@@ -1,0 +1,92 @@
+[
+  {
+    "id": "ISO27001-01",
+    "title": "Establish a set of policies that provide management direction and support for information security",
+    "description": "A.5.1: Policies for Information Security\nEstablish a set of policies that provide management direction and support for information security.",
+    "category": "other",
+    "keywords": [
+      "information security",
+      "that",
+      "management direction",
+      "policies",
+      "a set"
+    ],
+    "related_controls": [],
+    "severity": "low"
+  },
+  {
+    "id": "ISO27001-02",
+    "title": "6",
+    "description": "A.6.1: Organizational Roles and Responsibilities\nDefine security roles and allocate responsibilities. Assign accountability for information security.",
+    "category": "governance",
+    "keywords": [
+      "information security",
+      "responsibilities",
+      "organizational roles and responsibilities\ndefine security roles",
+      "organizational roles and responsibilities\ndefine",
+      "accountability",
+      "a.6.1"
+    ],
+    "related_controls": [],
+    "severity": "low"
+  },
+  {
+    "id": "ISO27001-03",
+    "title": "Classify information based on sensitivity and apply appropriate protection levels",
+    "description": "A.8.2: Information Classification\nClassify information based on sensitivity and apply appropriate protection levels.",
+    "category": "other",
+    "keywords": [
+      "information classification",
+      "information",
+      "appropriate protection levels",
+      "sensitivity"
+    ],
+    "related_controls": [],
+    "severity": "medium"
+  },
+  {
+    "id": "ISO27001-04",
+    "title": "Limit access to information and systems based on business and security requirements",
+    "description": "A.9.1: Access Control Policy\nLimit access to information and systems based on business and security requirements.",
+    "category": "governance",
+    "keywords": [
+      "business and security requirements",
+      "a.9.1: access control policy\nlimit access",
+      "systems",
+      "information"
+    ],
+    "related_controls": [],
+    "severity": "low"
+  },
+  {
+    "id": "ISO27001-05",
+    "title": "12",
+    "description": "A.12.3: Backup\nImplement backup procedures to ensure data availability and integrity. Test backups regularly.",
+    "category": "other",
+    "keywords": [
+      "integrity",
+      "test backups",
+      "data availability",
+      "a.12.3: backup\nimplement",
+      "backup procedures"
+    ],
+    "related_controls": [],
+    "severity": "low"
+  },
+  {
+    "id": "ISO27001-06",
+    "title": "Establish procedures to report, assess, and respond to security incidents in a timely manner",
+    "description": "A.16.1: Management of Information Security Incidents\nEstablish procedures to report, assess, and respond to security incidents in a timely manner.",
+    "category": "incident_response",
+    "keywords": [
+      "management of information security",
+      "procedures",
+      "security incidents",
+      "management",
+      "information security incidents",
+      "a timely manner"
+    ],
+    "related_controls": [],
+    "severity": "low"
+  }
+]

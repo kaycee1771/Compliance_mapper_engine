@@ -1,0 +1,17 @@
+A.5.1: Policies for Information Security
+Establish a set of policies that provide management direction and support for information security.
+
+A.6.1: Organizational Roles and Responsibilities
+Define security roles and allocate responsibilities. Assign accountability for information security.
+
+A.8.2: Information Classification
+Classify information based on sensitivity and apply appropriate protection levels.
+
+A.9.1: Access Control Policy
+Limit access to information and systems based on business and security requirements.
+
+A.12.3: Backup
+Implement backup procedures to ensure data availability and integrity. Test backups regularly.
+
+A.16.1: Management of Information Security Incidents
+Establish procedures to report, assess, and respond to security incidents in a timely manner.

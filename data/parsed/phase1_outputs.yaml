@@ -1,0 +1,74 @@
+- - policy
+  - data/raw/policies\access_control_policy.md
+  - []
+- - policy
+  - data/raw/policies\business_continuity_policy.md
+  - []
+- - policy
+  - data/raw/policies\data_encryption_policy.md
+  - []
+- - policy
+  - data/raw/policies\incident_response_policy.md
+  - []
+- - policy
+  - data/raw/policies\mfa_policy.txt
+  - - !!python/tuple
+      - MFA
+      - ORG
+    - !!python/tuple
+      - every 90 days
+      - DATE
+    - !!python/tuple
+      - weekly
+      - DATE
+- - policy
+  - data/raw/policies\risk_management_policy.md
+  - []
+- - infra_config
+  - data/raw/infra_configs\aws_config.txt
+  - - !!python/tuple
+      - IAM
+      - ORG
+    - !!python/tuple
+      - S3
+      - ORG
+- - infra_config
+  - data/raw/infra_configs\backup_cron.sh
+  - - !!python/tuple
+      - '#'
+      - CARDINAL
+- - infra_config
+  - data/raw/infra_configs\firewall_rules.sh
+  - - !!python/tuple
+      - '#'
+      - CARDINAL
+    - !!python/tuple
+      - '22'
+      - CARDINAL
+    - !!python/tuple
+      - '443'
+      - CARDINAL
+    - !!python/tuple
+      - '80'
+      - CARDINAL
+- - infra_config
+  - data/raw/infra_configs\iam_roles.tf
+  - - !!python/tuple
+      - '2012-10-17'
+      - DATE
+    - !!python/tuple
+      - AssumeRole
+      - ORG
+- - infra_config
+  - data/raw/infra_configs\mfa_enforcement.yml
+  - - !!python/tuple
+      - '12'
+      - CARDINAL
+- - infra_config
+  - data/raw/infra_configs\nginx_tls_config.conf
+  - - !!python/tuple
+      - '443'
+      - CARDINAL
+    - !!python/tuple
+      - HIGH:!aNULL:!MD5
+      - ORG

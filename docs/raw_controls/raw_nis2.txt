@@ -1,0 +1,14 @@
+Article 20: Cybersecurity Risk Management
+Essential and important entities shall identify and take appropriate technical and organizational measures to manage the risks posed to the security of network and information systems.
+
+Article 21: Incident Handling
+Entities shall be capable of preventing, detecting, responding to and recovering from incidents. They must notify relevant authorities of significant incidents.
+
+Article 22: Business Continuity
+Entities must ensure continuity of their services and supply chains during and after incidents, including the use of backup and recovery mechanisms.
+
+Article 23: Supply Chain Security
+Organizations shall assess risks associated with suppliers and service providers and adopt security measures across the supply chain.
+
+Article 24: Policy and Governance
+Entities must adopt a governance framework to manage cybersecurity, assign responsibilities and continuously improve based on assessments.

@@ -1,0 +1,89 @@
+[
+  {
+    "id": "NIS2-01",
+    "title": "Essential and important entities shall identify and take appropriate technical and organizational measures to manage the risks posed to the security of network and information systems",
+    "description": "Article 20: Cybersecurity Risk Management\nEssential and important entities shall identify and take appropriate technical and organizational measures to manage the risks posed to the security of network and information systems.",
+    "category": "risk_management",
+    "keywords": [
+      "network and information systems",
+      "cybersecurity risk management\nessential and important entities",
+      "appropriate technical and organizational measures",
+      "the risks",
+      "article 20: cybersecurity risk management\nessential",
+      "the security"
+    ],
+    "related_controls": [],
+    "severity": "medium"
+  },
+  {
+    "id": "NIS2-02",
+    "title": "Entities must be capable of preventing, detecting, responding to and recovering from incidents",
+    "description": "Article 21: Incident Handling\nEntities shall be capable of preventing, detecting, responding to and recovering from incidents. They must notify relevant authorities of significant incidents.",
+    "category": "incident_response",
+    "keywords": [
+      "significant incidents",
+      "article 21:",
+      "relevant authorities",
+      "incident handling\nentities",
+      "they",
+      "article",
+      "incidents"
+    ],
+    "related_controls": [],
+    "severity": "high"
+  },
+  {
+    "id": "NIS2-03",
+    "title": "Entities must ensure continuity of their services and supply chains during and after incidents",
+    "description": "Article 22: Business Continuity\nEntities must ensure continuity of their services and supply chains during and after incidents, including the use of backup and recovery mechanisms.",
+    "category": "incident_response",
+    "keywords": [
+      "business continuity\nentities",
+      "article",
+      "backup and recovery mechanisms",
+      "article 22:",
+      "their services and supply chains",
+      "incidents",
+      "continuity",
+      "the use"
+    ],
+    "related_controls": [],
+    "severity": "high"
+  },
+  {
+    "id": "NIS2-04",
+    "title": "Organizations shall assess risks associated with suppliers and service providers and adopt security measures across the supply chain",
+    "description": "Article 23: Supply Chain Security\nOrganizations shall assess risks associated with suppliers and service providers and adopt security measures across the supply chain.",
+    "category": "risk_management",
+    "keywords": [
+      "risks",
+      "service providers",
+      "suppliers",
+      "supply chain security\norganizations",
+      "the supply chain",
+      "security measures",
+      "article",
+      "article 23: supply chain security\norganizations"
+    ],
+    "related_controls": [],
+    "severity": "low"
+  },
+  {
+    "id": "NIS2-05",
+    "title": "Entities must adopt a governance framework to manage cybersecurity, assign responsibilities and continuously improve based on assessments",
+    "description": "Article 24: Policy and Governance\nEntities must adopt a governance framework to manage cybersecurity, assign responsibilities and continuously improve based on assessments.",
+    "category": "risk_management",
+    "keywords": [
+      "cybersecurity",
+      "a governance framework",
+      "responsibilities",
+      "governance\nentities",
+      "policy",
+      "article",
+      "article 24: policy and governance\nentities",
+      "assessments"
+    ],
+    "related_controls": [],
+    "severity": "high"
+  }
+]

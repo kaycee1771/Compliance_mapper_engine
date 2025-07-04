@@ -1,0 +1,3 @@
+IAM role AssumeRoleWithMFA is required for cloud console login.
+S3 buckets must have encryption and versioning enabled.
+Port 22 is only accessible through bastion hosts.

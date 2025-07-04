@@ -1,0 +1,10 @@
+users:
+  - name: admin
+    mfa: enabled
+    roles:
+      - admin
+settings:
+  password_policy:
+    min_length: 12
+    require_special: true
+    require_mfa: true

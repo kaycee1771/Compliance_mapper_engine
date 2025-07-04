@@ -1,0 +1,17 @@
+Article 5: ICT Risk Management Framework
+Financial entities must establish an ICT risk management framework covering identification, protection, detection, response and recovery.
+
+Article 6: ICT Systems Resilience
+Ensure that ICT systems are resilient and recoverable. Conduct business impact analysis and disaster recovery testing.
+
+Article 7: Incident Reporting
+Report major ICT-related incidents to the competent authority within the required timeframes.
+
+Article 8: Digital Operational Resilience Testing
+Conduct advanced resilience testing using threat-led penetration testing at least every three years.
+
+Article 9: Third-Party Risk
+Identify and assess ICT third-party dependencies and manage risks arising from outsourcing and cloud services.
+
+Article 10: Governance and Responsibility
+The management body of the entity shall be responsible for digital resilience and ensure compliance with DORA requirements.

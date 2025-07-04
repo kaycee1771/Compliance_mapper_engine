@@ -1,0 +1,105 @@
+[
+  {
+    "id": "DORA-01",
+    "title": "Financial entities must establish an ICT risk management framework covering identification, protection, detection, response and recovery",
+    "description": "Article 5: ICT Risk Management Framework\nFinancial entities must establish an ICT risk management framework covering identification, protection, detection, response and recovery.",
+    "category": "incident_response",
+    "keywords": [
+      "response",
+      "detection",
+      "an ict risk management framework",
+      "identification",
+      "ict risk management framework\nfinancial entities",
+      "protection",
+      "recovery",
+      "ict",
+      "article 5: ict risk management framework\nfinancial"
+    ],
+    "related_controls": [],
+    "severity": "high"
+  },
+  {
+    "id": "DORA-02",
+    "title": "Ensure that ICT systems are resilient and recoverable",
+    "description": "Article 6: ICT Systems Resilience\nEnsure that ICT systems are resilient and recoverable. Conduct business impact analysis and disaster recovery testing.",
+    "category": "business_continuity",
+    "keywords": [
+      "disaster recovery testing",
+      "business impact analysis",
+      "article 6:",
+      "ict systems resilience",
+      "ict",
+      "ict systems",
+      "ict systems resilience\nensure"
+    ],
+    "related_controls": [],
+    "severity": "low"
+  },
+  {
+    "id": "DORA-03",
+    "title": "Report major ICT-related incidents to the competent authority within the required timeframes",
+    "description": "Article 7: Incident Reporting\nReport major ICT-related incidents to the competent authority within the required timeframes.",
+    "category": "incident_response",
+    "keywords": [
+      "the required timeframes",
+      "the competent authority",
+      "ict",
+      "article 7: incident reporting\nreport",
+      "incident reporting\nreport"
+    ],
+    "related_controls": [],
+    "severity": "high"
+  },
+  {
+    "id": "DORA-04",
+    "title": "Conduct advanced resilience testing using threat-led penetration testing at least every three years",
+    "description": "Article 8: Digital Operational Resilience Testing\nConduct advanced resilience testing using threat-led penetration testing at least every three years.",
+    "category": "business_continuity",
+    "keywords": [
+      "digital operational resilience testing\nconduct",
+      "digital operational resilience testing\nconduct advanced resilience testing",
+      "threat-led penetration testing",
+      "article",
+      "at least every three years",
+      "article 8"
+    ],
+    "related_controls": [],
+    "severity": "low"
+  },
+  {
+    "id": "DORA-05",
+    "title": "Identify and assess ICT third-party dependencies and manage risks arising from outsourcing and cloud services",
+    "description": "Article 9: Third-Party Risk\nIdentify and assess ICT third-party dependencies and manage risks arising from outsourcing and cloud services.",
+    "category": "third_party_risk",
+    "keywords": [
+      "risks",
+      "ict",
+      "outsourcing and cloud services",
+      "article 9: third-party risk\nidentify",
+      "article",
+      "third",
+      "ict third-party dependencies"
+    ],
+    "related_controls": [],
+    "severity": "low"
+  },
+  {
+    "id": "DORA-06",
+    "title": "The management body of the entity shall be responsible for digital resilience and ensure compliance with DORA requirements",
+    "description": "Article 10: Governance and Responsibility\nThe management body of the entity shall be responsible for digital resilience and ensure compliance with DORA requirements.",
+    "category": "risk_management",
+    "keywords": [
+      "responsibility",
+      "digital resilience",
+      "the entity",
+      "article 10: governance and responsibility\nthe",
+      "dora",
+      "compliance",
+      "the management body",
+      "governance",
+      "dora requirements"
+    ],
+    "related_controls": [],
+    "severity": "low"
+  }
+]
