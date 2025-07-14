@@ -1,6 +1,6 @@
 # Compliance Mapper Engine
 
-The **Compliance Mapper Engine** is an AI-powered backend framework designed to automatically map organizational artifacts—such as policy documents, infrastructure configurations, and Git metadata—against industry-standard cybersecurity and digital resilience controls, including **NIS2**, **DORA**, and **ISO/IEC 27001**.
+The **Compliance Mapper Engine** is an AI-powered backend framework designed to automatically map organizational artifacts, such as policy documents, infrastructure configurations, and Git metadata, against industry-standard cybersecurity and digital resilience controls, including **NIS2**, **DORA**, and **ISO/IEC 27001**.
 
 ## Features
 
