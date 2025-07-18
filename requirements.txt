@@ -5,3 +5,5 @@ gitpython
 chardet
 spacy
 transformers
+torch
+sentence-transformers
