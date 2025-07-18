@@ -1,8 +1,8 @@
 pipeline {
-    agent any
-
-    environment {
-        PIP_DISABLE_PIP_VERSION_CHECK = '1'
+    agent {
+        docker {
+            image 'python:3.11'
+        }
     }
 
     stages {
@@ -12,11 +12,9 @@ pipeline {
             }
         }
 
-        stage('Install Python & Dependencies') {
+        stage('Install Dependencies') {
             steps {
                 sh '''
-                    python3 -m venv venv
-                    source venv/bin/activate
                     pip install --upgrade pip
                     pip install -r requirements.txt
                 '''
@@ -25,10 +23,7 @@ pipeline {
 
         stage('Run Compliance Mapper') {
             steps {
-                sh '''
-                    source venv/bin/activate
-                    python3 cpid.py
-                '''
+                sh 'python3 cpid.py'
             }
         }
 
