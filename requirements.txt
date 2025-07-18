@@ -4,3 +4,4 @@ PyYAML
 gitpython
 chardet
 spacy
+transformers
