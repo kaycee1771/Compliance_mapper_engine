@@ -1,8 +1,8 @@
 pipeline {
-    agent {
-        docker {
-            image 'python:3.11'
-        }
+    agent any
+
+    environment {
+        PIP_DISABLE_PIP_VERSION_CHECK = '1'
     }
 
     stages {
@@ -12,15 +12,23 @@ pipeline {
             }
         }
 
-        stage('Install Dependencies') {
+        stage('Install Python & Dependencies') {
             steps {
-                sh 'pip install -r requirements.txt'
+                sh '''
+                    python3 -m venv venv
+                    source venv/bin/activate
+                    pip install --upgrade pip
+                    pip install -r requirements.txt
+                '''
             }
         }
 
         stage('Run Compliance Mapper') {
             steps {
-                sh 'python3 cpid.py'
+                sh '''
+                    source venv/bin/activate
+                    python3 cpid.py
+                '''
             }
         }
 
@@ -28,6 +36,12 @@ pipeline {
             steps {
                 archiveArtifacts artifacts: 'reports/**', allowEmptyArchive: true
             }
+        }
+    }
+
+    post {
+        always {
+            echo 'Pipeline completed.'
         }
     }
 }
