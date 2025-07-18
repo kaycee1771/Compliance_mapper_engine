@@ -20,7 +20,7 @@ pipeline {
 
         stage('Run Compliance Mapper') {
             steps {
-                sh 'python3 main.py'
+                sh 'python3 cpid.py'
             }
         }
 
